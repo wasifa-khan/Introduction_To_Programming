@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Verdana, sans-serif;
+    color: rgb(255, 218, 51);
+    padding: 10px;
+   
+}  
+.page {
+    border: 1px solid #665544;
+    background-color: #efefef;
+}
+
+
+#box{
+    color: blueviolet;
+    font-size: 27px;
+    background-color: brown;
+}
+#box1{
+  color: chartreuse;
+  background-color: aqua;
+  font-size: 34px;
+}
+
+.paragraph{
+    color: #CDC1FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+} 
+ h1,h2, h3, p{
+    color: blueviolet;
+}
+.potato{
+    color: brown;
+}
+
+
+img{
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 1.0;
+}
+
+.para1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration:;
+
+}
