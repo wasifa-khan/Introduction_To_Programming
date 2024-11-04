@@ -1,0 +1,46 @@
+.para{
+    line-height: 1.7;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+h2{
+    word-spacing: 12px;
+}
+
+.a h2{
+   text-align: center;
+   text-shadow: 2px 2px 3px #F09319;
+}
+.a p{
+   text-align: justify;
+}
+.a img{
+    opacity: 0.4;
+}
+.a img:hover{
+    opacity: 1;
+    
+}
+
+.b a:hover{
+    color: #FFA24C;
+}
+.b a:link{
+    color: #C62E2E;
+}
+/* .b a:visited{
+    color: #798645;
+} */
+.b a:active{
+    color: #227B94;
+}
+
+.para2::first-letter{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.para2::first-line{
+    font-size: 25px;
+}
