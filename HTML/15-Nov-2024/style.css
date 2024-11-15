@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+body{
+    background-image: url('./assets/img_3.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    box-shadow: 10px 10px 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.para{
+    padding: 80px;
+    margin-top: 100px;
+    color: white;
+    font-weight: 700;
+    font-family: Eater;
+    font-size: 10px;
+}
+
