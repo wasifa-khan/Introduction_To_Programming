@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px;  
+}
+
+.fixed-div {
+    position: fixed; 
+    top: 0;          
+    right: 0;         
+    width: 200px;     
+    height: 100vh;   
+    background-image: url('./assets/pic.jfif');  
+    background-size: cover;  
+    z-index: 1000;   
+    color: white;  
+    padding: 20px;
+  
+}
+

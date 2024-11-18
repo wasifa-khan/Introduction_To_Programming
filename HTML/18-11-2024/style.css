@@ -1,0 +1,47 @@
+/* .container{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid brown;
+    position: absolute;
+} */
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    top: 100px;
+    left: 50px;
+    position: absolute;
+    
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    top: 150px;
+    left: 100px;
+    position: absolute;
+    z-index: -1;
+   
+   
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    top: 200px;
+    left: 150px;
+    position: absolute;
+   
+  
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    top: 250px;
+    left: 200px;
+    position: absolute;
+    z-index: 3;
+ 
+}
