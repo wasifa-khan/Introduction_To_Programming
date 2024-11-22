@@ -1,0 +1,42 @@
+div {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes box {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+div:hover {
+  animation-name: box;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@media(width:600px){
+    div{
+        background-color: blue;
+        font-size: 30px;
+    }
+} 
+ @media(max-width:600px){
+    div{
+        background-color: hotpink;
+        font-size: 30px;
+    }
+} 
+
+ @media(min-width:200px) and (max-width:400px){
+    div{
+        background-color: blueviolet;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
