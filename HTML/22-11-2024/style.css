@@ -4,7 +4,6 @@ div {
   width: 100px;
   height: 100px;
 }
-
 @keyframes box {
   0% {
     transform: rotate(0);
@@ -13,7 +12,6 @@ div {
     transform: rotate(360deg);
   }
 }
-
 div:hover {
   animation-name: box;
   animation-duration: 0.7s;
@@ -32,11 +30,11 @@ div:hover {
         font-size: 30px;
     }
 } 
-
+/* 
  @media(min-width:200px) and (max-width:400px){
     div{
         background-color: blueviolet;
         font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-}
+} */
